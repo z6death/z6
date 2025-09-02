@@ -1,0 +1,14 @@
+2025/08/15-15:52:48.713 42e8 Reusing MANIFEST /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_app.cybrary.it_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/15-15:52:48.713 42e8 Recovering log #10
+2025/08/15-15:52:48.713 42e8 Reusing old log /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_app.cybrary.it_0.indexeddb.leveldb/000010.log 
+2025/08/15-15:52:48.714 42e8 Delete type=2 #8
+2025/08/15-15:52:49.508 42e8 Level-0 table #15: started
+2025/08/15-15:52:49.515 42e8 Level-0 table #15: 6991 bytes OK
+2025/08/15-15:52:49.528 42e8 Delete type=0 #10
+2025/08/15-15:52:49.529 42e8 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 298 : 1
+2025/08/15-15:52:49.529 42e8 Compacting 1@0 + 1@1 files
+2025/08/15-15:52:49.534 42e8 Generated table #16@0: 78 keys, 1680 bytes
+2025/08/15-15:52:49.534 42e8 Compacted 1@0 + 1@1 files => 1680 bytes
+2025/08/15-15:52:49.541 42e8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-15:52:49.542 42e8 Delete type=2 #15
+2025/08/15-15:52:49.542 42e8 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 298 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

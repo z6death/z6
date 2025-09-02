@@ -1,0 +1,46 @@
+2025/08/15-15:24:27.195 3797 Reusing MANIFEST /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_mail.proton.me_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/15-15:24:27.195 3797 Recovering log #11
+2025/08/15-15:24:27.196 3797 Reusing old log /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_mail.proton.me_0.indexeddb.leveldb/000011.log 
+2025/08/15-15:24:54.009 379c Level-0 table #16: started
+2025/08/15-15:24:54.016 379c Level-0 table #16: 21395 bytes OK
+2025/08/15-15:24:54.027 379c Delete type=0 #11
+2025/08/15-15:24:54.030 379d Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 170 : 1
+2025/08/15-15:24:54.031 379d Compacting 1@0 + 1@1 files
+2025/08/15-15:24:54.038 379d Generated table #17@0: 41 keys, 1174 bytes
+2025/08/15-15:24:54.042 379d Compacted 1@0 + 1@1 files => 1174 bytes
+2025/08/15-15:24:54.046 379d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-15:24:54.046 379d Delete type=2 #16
+2025/08/15-15:24:54.047 379d Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 170 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/15-15:25:03.434 383c Level-0 table #19: started
+2025/08/15-15:25:03.445 383c Level-0 table #19: 760 bytes OK
+2025/08/15-15:25:03.457 383c Delete type=2 #13
+2025/08/15-15:25:03.457 383c Delete type=0 #15
+2025/08/15-15:25:03.461 379a Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 193 : 1
+2025/08/15-15:25:03.462 379a Compacting 1@0 + 1@1 files
+2025/08/15-15:25:03.467 379a Generated table #20@0: 43 keys, 1022 bytes
+2025/08/15-15:25:03.467 379a Compacted 1@0 + 1@1 files => 1022 bytes
+2025/08/15-15:25:03.480 379a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-15:25:03.482 379a Delete type=2 #19
+2025/08/15-15:25:03.484 379a Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 193 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/15-15:25:03.510 379e Level-0 table #22: started
+2025/08/15-15:25:03.520 379e Level-0 table #22: 465 bytes OK
+2025/08/15-15:25:03.529 379e Delete type=2 #17
+2025/08/15-15:25:03.529 379e Delete type=0 #18
+2025/08/15-15:25:03.531 383c Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 221 : 0
+2025/08/15-15:25:03.531 383c Compacting 1@0 + 1@1 files
+2025/08/15-15:25:03.533 383c Generated table #23@0: 45 keys, 1210 bytes
+2025/08/15-15:25:03.533 383c Compacted 1@0 + 1@1 files => 1210 bytes
+2025/08/15-15:25:03.540 383c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-15:25:03.541 383c Delete type=2 #22
+2025/08/15-15:25:03.542 379e Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 221 : 0 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/15-15:25:08.698 379b Level-0 table #25: started
+2025/08/15-15:25:08.700 379b Level-0 table #25: 709 bytes OK
+2025/08/15-15:25:08.706 379b Delete type=2 #20
+2025/08/15-15:25:08.706 379b Delete type=0 #21
+2025/08/15-15:25:08.708 379c Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 225 : 1
+2025/08/15-15:25:08.708 379c Compacting 1@0 + 1@1 files
+2025/08/15-15:25:08.711 379c Generated table #26@0: 46 keys, 1221 bytes
+2025/08/15-15:25:08.711 379c Compacted 1@0 + 1@1 files => 1221 bytes
+2025/08/15-15:25:08.718 379c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/15-15:25:08.720 379c Delete type=2 #25
+2025/08/15-15:25:08.722 379b Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 225 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

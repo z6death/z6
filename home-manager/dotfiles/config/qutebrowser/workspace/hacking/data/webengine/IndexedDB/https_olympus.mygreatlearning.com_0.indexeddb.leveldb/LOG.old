@@ -1,0 +1,14 @@
+2025/08/19-19:44:32.755 4271 Reusing MANIFEST /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_olympus.mygreatlearning.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/19-19:44:32.755 4271 Recovering log #26
+2025/08/19-19:44:32.773 4271 Reusing old log /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_olympus.mygreatlearning.com_0.indexeddb.leveldb/000026.log 
+2025/08/19-19:44:32.776 4271 Delete type=2 #24
+2025/08/19-19:44:39.134 4271 Level-0 table #31: started
+2025/08/19-19:44:39.140 4271 Level-0 table #31: 1268 bytes OK
+2025/08/19-19:44:39.147 4271 Delete type=0 #26
+2025/08/19-19:44:39.148 433e Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 1656 : 1
+2025/08/19-19:44:39.148 433e Compacting 1@0 + 1@1 files
+2025/08/19-19:44:39.153 433e Generated table #32@0: 105 keys, 2643 bytes
+2025/08/19-19:44:39.153 433e Compacted 1@0 + 1@1 files => 2643 bytes
+2025/08/19-19:44:39.167 433e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/19-19:44:39.170 433e Delete type=2 #31
+2025/08/19-19:44:39.176 426d Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 1656 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)

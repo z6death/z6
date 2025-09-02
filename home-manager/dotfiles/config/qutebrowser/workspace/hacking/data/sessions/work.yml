@@ -1,0 +1,123 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAPFAAAAHgAAB3UAAAQZAAADzgAAACcAAAdsAAAEEAAAAAAAAAAAB4AAAAPOAAAA
+    JwAAB2wAAAQQ
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://tryhackme.com/room/offensivesecurityintro
+      url: https://tryhackme.com/room/offensivesecurityintro
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Cisco Networking Academy: Learn Cybersecurity, Python & More'
+      url: https://www.netacad.com/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:35'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://olympus.mygreatlearning.com/courses/12629/modules/items/926439?pb_id=581
+      url: https://olympus.mygreatlearning.com/courses/12629/modules/items/926439?pb_id=581
+      zoom: 1.0
+  - history: []
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://hackaday.com
+      url: https://hackaday.com/
+      zoom: 1.0
+  - history: []
+  - history: []
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:35'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: You searched for Introduction to Ethical Hacking - GeeksforGeeks
+      url: https://www.geeksforgeeks.org/search/?gq=Introduction+to+Ethical+Hacking
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:35'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://www.geeksforgeeks.org/ethical-hacking/ethical-hacking-tutorial/
+      url: https://www.geeksforgeeks.org/ethical-hacking/ethical-hacking-tutorial/
+      zoom: 1.0
+  - history: []
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:35'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://www.geeksforgeeks.org/ethical-hacking/ethical-hacking-footprinting/
+      url: https://www.geeksforgeeks.org/ethical-hacking/ethical-hacking-footprinting/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:35'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://learning.edx.org/course/course-v1:HarvardX+CS50CS+Cybersecurity/block-v1:HarvardX+CS50CS+Cybersecurity+type@sequential+block@f32006b478c44ccebb7341cb547e478a/block-v1:HarvardX+CS50CS+Cybersecurity+type@vertical+block@35a1404b352f43f4a90a42bdbb6c5b97
+      url: https://learning.edx.org/course/course-v1:HarvardX+CS50CS+Cybersecurity/block-v1:HarvardX+CS50CS+Cybersecurity+type@sequential+block@f32006b478c44ccebb7341cb547e478a/block-v1:HarvardX+CS50CS+Cybersecurity+type@vertical+block@35a1404b352f43f4a90a42bdbb6c5b97
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:35'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://learning.edx.org/course/course-v1:edX+BCT-ethical-hacking+2T2023/block-v1:edX+BCT-ethical-hacking+2T2023+type@sequential+block@48cf4700-welcome-to-try-it-ethical-hacking/block-v1:edX+BCT-ethical-hacking+2T2023+type@vertical+block@485bda1c-introduction
+      url: https://learning.edx.org/course/course-v1:edX+BCT-ethical-hacking+2T2023/block-v1:edX+BCT-ethical-hacking+2T2023+type@sequential+block@48cf4700-welcome-to-try-it-ethical-hacking/block-v1:edX+BCT-ethical-hacking+2T2023+type@vertical+block@485bda1c-introduction
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: C++ Developer Roadmap
+      url: https://roadmap.sh/cpp
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2025-08-26T21:20:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Cyber Security Roadmap: Learn to become a Cyber Security Expert'
+      url: https://roadmap.sh/cyber-security?fl=0#
+      zoom: 1.0
+  - history: []
+  - active: true
+    history: []

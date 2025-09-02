@@ -1,0 +1,17 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAPFAAAAHgAAB3UAAAQZAAADzgAAACcAAAdsAAAEEAAAAAAAAAAAB4AAAAPOAAAA
+    JwAAB2wAAAQQ
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2025-08-15T12:42:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: DuckDuckGo - Protection. Privacy. Peace of mind.
+      url: https://start.duckduckgo.com/
+      zoom: 1.0

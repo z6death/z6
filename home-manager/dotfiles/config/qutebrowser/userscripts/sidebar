@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ "$1" = "toggle" ]; then
+    # Toggle sidebar visibility
+    qutebrowser ":config-cycle tabs.show always never"
+else
+    # Default behavior
+    qutebrowser ":open $1"
+fi

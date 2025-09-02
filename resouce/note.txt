@@ -1,0 +1,28 @@
+All Cybersecurity Tools List:
+============================
+    Aircrack-ng	            https://github.com/aircrack-ng/aircrack-ng
+    Amass               	https://github.com/owasp-amass/amass
+    Autopsy             	https://github.com/sleuthkit/autopsy
+    Binwalk	                https://github.com/ReFirmLabs/binwalk
+    BloodHound          	https://github.com/BloodHoundAD/BloodHound
+    Burp Suite	            https://portswigger.net/burp
+    CrackMapExec        	https://github.com/Porchetta-Industries/CrackMapExec
+    Dirsearch           	https://github.com/maurosoria/dirsearch
+    FFuf                	https://github.com/ffuf/ffuf
+    Gobuster            	https://github.com/OJ/gobuster
+    Hashcat             	https://github.com/hashcat/hashcat
+    Impacket            	https://github.com/fortra/impacket
+    John the Ripper     	https://github.com/openwall/john
+    Ligolo-ng           	https://github.com/nicocha30/ligolo-ng
+    Metasploit          	https://github.com/rapid7/metasploit-framework
+    Nmap                	https://github.com/nmap/nmap
+    Nuclei              	https://github.com/projectdiscovery/nuclei
+    SQLMap              	https://github.com/sqlmapproject/sqlmap
+    Sublist3r           	https://github.com/aboul3la/Sublist3r
+    Wireshark           	https://www.wireshark.org
+    WPScan              	https://github.com/wpscanteam/wpscan
+    ZAP (Zed Attack Proxy)	https://github.com/zaproxy/zaproxy
+
+roadmaps:
+========
+

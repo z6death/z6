@@ -1,0 +1,44 @@
+:open ~/.config/qutebrowser/home/index.html
+:config-source
+:open hacker101
+:open great learning
+:open cisco networking
+:open tryhackme
+:open cs50 cyersecurity
+:open how to start hacking
+:open gmail
+:open protonmail
+:open cybrary
+:open hackerone
+:open hackerday
+:config-source
+:open geeksforgeeks
+:config-source
+:open deepseek
+:open hackerone
+:open hackday
+:open https://olympus.mygreatlearning.com/courses/12629?pb_id=581
+:config-source
+:open https://app.cybrary.it/
+:config-source
+:open https://www.geeksforgeeks.org/ethical-hacking/ethical-hacking-tutorial/
+:config-source
+:open https://home.edx.org/
+:open deepseek
+:config-source
+:open https://learning.edx.org/course/course-v1:HarvardX+CS50CS+Cybersecurity/block-v1:HarvardX+CS50CS+Cybersecurity+type@sequential+block@f32006b478c44ccebb7341cb547e478a/block-v1:HarvardX+CS50CS+Cybersecurity+type@vertical+block@35a1404b352f43f4a90a42bdbb6c5b97
+:open https://learning.edx.org/course/course-v1:edX+BCT-ethical-hacking+2T2023/block-v1:edX+BCT-ethical-hacking+2T2023+type@sequential+block@48cf4700-welcome-to-try-it-ethical-hacking/block-v1:edX+BCT-ethical-hacking+2T2023+type@vertical+block@485bda1c-introduction
+:open https://learning.edx.org/course/course-v1:EC-Council+EHE-112-52+3T2022/block-v1:EC-Council+EHE-112-52+3T2022+type@sequential+block@02f96ba855fc4d7188a28334e86a7802/block-v1:EC-Council+EHE-112-52+3T2022+type@vertical+block@d3675c4fba7a4f9a8f52c1ea6efd5560
+:open https://hackerone.com/opportunities/all
+:open https://duckduckgo.com/?q=hackday&ia=web
+:open https://www.cybrary.it/
+:open https://olympus.mygreatlearning.com/courses/12629/modules/items/926439?pb_id=581
+:open https://www.netacad.com/dashboard#state=7a82fcf6-547e-4bdc-8d81-9a1428ac2c72&session_state=cc2efb57-3d64-4c3f-85d7-c7abd22cc6fb&iss=https%3A%2F%2Fauth.netacad.com%2Fauth%2Frealms%2Fskillsforall&code=fb981a8e-977c-4956-b620-6de106ecf3c3.cc2efb57-3d64-4c3f-85d7-c7abd22cc6fb.8870065c-459e-43f2-83c2-9569348f2c95
+:open https://chat.deepseek.com/
+:config-source
+:open ~/.hacking/cyber-security.pdf
+:help 
+:open https://roadmap.sh/cyber-security?fl=0#
+:open pico ctf
+:open over the wire
+:open file:///home/z6/.config/qutebrowser/home/index.html

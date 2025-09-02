@@ -1,0 +1,3 @@
+#!/bin/sh
+# Opens a new workspace WITHOUT closing the original window
+setsid -f qutebrowser --basedir "$HOME/.config/qutebrowser/workspace/$1"

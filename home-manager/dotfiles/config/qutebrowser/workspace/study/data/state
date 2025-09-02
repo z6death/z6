@@ -1,0 +1,12 @@
+[general]
+qt_version = 6.5.2
+qtwe_version = 6.5.2
+chromium_version = 108
+version = 3.0.0
+session = default
+
+[geometry]
+mainwindow = AdnQywADAAAAAAPFAAAAHgAAB3UAAAQZAAADzgAAACcAAAdsAAAEEAAAAAAAAAAAB4AAAAPOAAAAJwAAB2wAAAQQ
+
+[inspector]
+

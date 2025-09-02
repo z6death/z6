@@ -1,0 +1,4 @@
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+dotfiles/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+home/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+themes/**/*.mp3 filter=lfs diff=lfs merge=lfs -text

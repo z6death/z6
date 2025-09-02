@@ -1,0 +1,25 @@
+2025/08/26-21:21:11.810 56ff Reusing MANIFEST /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_tryhackme.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/26-21:21:11.816 56ff Recovering log #46
+2025/08/26-21:21:11.816 56ff Reusing old log /home/z6/.config/qutebrowser/workspace/hacking/data/webengine/IndexedDB/https_tryhackme.com_0.indexeddb.leveldb/000046.log 
+2025/08/26-21:21:11.817 56ff Delete type=2 #44
+2025/08/26-21:21:27.349 57e7 Level-0 table #51: started
+2025/08/26-21:21:27.353 57e7 Level-0 table #51: 509 bytes OK
+2025/08/26-21:21:27.364 57e7 Delete type=0 #46
+2025/08/26-21:21:27.370 5701 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x00\x00\x05' @ 1108 : 1
+2025/08/26-21:21:27.370 5701 Compacting 1@0 + 1@1 files
+2025/08/26-21:21:27.373 5701 Generated table #52@0: 76 keys, 1159 bytes
+2025/08/26-21:21:27.373 5701 Compacted 1@0 + 1@1 files => 1159 bytes
+2025/08/26-21:21:27.380 5701 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/26-21:21:27.381 5701 Delete type=2 #51
+2025/08/26-21:21:27.385 5701 Manual compaction at level-0 from '\x00\x15\x00\x00\x05' @ 1108 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/26-21:21:28.057 57e7 Level-0 table #54: started
+2025/08/26-21:21:28.060 57e7 Level-0 table #54: 512 bytes OK
+2025/08/26-21:21:28.075 57e7 Delete type=2 #48
+2025/08/26-21:21:28.075 57e7 Delete type=0 #50
+2025/08/26-21:21:28.076 57e7 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at '\x00\x16\x00\x00\x05' @ 1124 : 1
+2025/08/26-21:21:28.076 57e7 Compacting 1@0 + 1@1 files
+2025/08/26-21:21:28.082 57e7 Generated table #55@0: 80 keys, 1186 bytes
+2025/08/26-21:21:28.082 57e7 Compacted 1@0 + 1@1 files => 1186 bytes
+2025/08/26-21:21:28.091 57e7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/26-21:21:28.092 57e7 Delete type=2 #54
+2025/08/26-21:21:28.096 57ea Manual compaction at level-0 from '\x00\x16\x00\x00\x05' @ 1124 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)

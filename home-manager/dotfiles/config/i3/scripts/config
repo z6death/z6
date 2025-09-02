@@ -1,0 +1,176 @@
+# Set mod key to Alt
+set $mod Mod1
+
+font pango:monospace 10
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+#workspace lunching
+
+bindsym control+shift+1 exec ~/workspace/layout1.sh
+bindsym control+shift+2 exec ~/workspace/layout2.sh
+#launchpad(alt)
+
+bindsym $mod+shift+f exec kitty -e ranger &
+bindsym $mod+w exec kitty -e --override font_size=26 cli-chess &
+bindsym $mod+shift+g exec kitty -e  cvlc /home/z6/Music/focus.mp3 & 
+bindsym $mod+shift+d exec kitty -e /home/z6/z6_sh/music_install.sh &
+bindsym $mod+shift+o exec --no-startup-id kitty -e sudo tlp start & sleep 4
+bindsym $mod+o exec kitty -e /home/z6/z6_sh/yt_install.sh &
+bindsym $mod+y exec --no-startup-id ~/app/freetube/freetube
+bindsym $mod+shift+y exec kitty -e links duckduckgo.com
+bindsym $mod+e exec kitty -e nvim
+bindsym $mod+shift+w exec kitty -e sudo nmtui
+bindsym $mod+shift+e exec kitty -e nvim ~
+bindsym $mod+x exec kitty -e ~/z6_sh/pipes.sh
+bindsym $mod+b exec ~/app/Brave.AppImage
+bindsym $mod+n exec ~/app/StandardNotes.AppImage
+bindsym $mod+q exec thunar
+bindsym $mod+p exec pavucontrol
+bindsym $mod+shift+z exec zathura
+bindsym $mod+shift+m exec --no-startup-id betterlockscreen -l
+bindsym $mod+m exec --no-startup-id ~/.config/i3/scripts/mouse.sh
+bindsym $mod+g exec gimp
+bindsym $mod+shift+s exec kitty -e btop
+bindsym $mod+shift+p exec --no-startup-id flameshot gui
+bindsym $mod+shift+c exec kitty -e cava
+bindsym $mod+i exec kitty -e cbonsai -li -M 40 -c '^' -L 160
+bindsym $mod+shift+i exec kitty -e nvim ~/.config/i3/config
+bindsym $mod+shift+x exec kitty -e cmatrix
+bindsym $mod+shift+t exec kitty -e nvim ~/code/key.txt
+bindsym $mod+c exec --no-startup-id kitty -e ~/z6_sh/audio_player.sh &
+bindsym $mod+t exec --no-startup-id kitty -e ~/.config/i3/scripts/termdown_input.sh 
+bindsym $mod+shift+b exec blueman-manager
+bindsym $mod+z exec ~/app/Zen.AppImage
+bindsym $mod+a exec kitty -e tgpt -is
+bindsym $mod+shift+v exec virt-manager
+
+bindsym $mod+Return exec kitty -e tmux
+bindsym $mod+shift+q kill
+bindsym $mod+d exec rofi -show drun
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+S split h
+bindsym $mod+v split v
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+space floating toggle
+
+#volume control
+
+bindsym $mod+Up exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym $mod+Down exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym $mod+`` exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# Move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# bindsym $mod+shift+g reload
+bindsym $mod+Shift+r restart
+mode "resize" {
+    bindsym h resize shrink width 10 px or 10 ppt
+    bindsym j resize grow height 10 px or 10 ppt
+    bindsym k resize shrink height 10 px or 10 ppt
+    bindsym l resize grow width 10 px or 10 ppt
+
+    # exit resize mode: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+# Change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+# Focus the parent container
+bindsym $mod+shift+a focus parent
+# Focus the child container
+bindsym $mod+shift+n focus child
+
+bar {
+    i3bar_command i3bar --transparency 
+    modifier Mod1
+    status_command i3blocks
+    tray_output primary
+    position top
+    colors {
+        background #00000000  
+        statusline #000000
+        separator  #00000000
+
+        focused_workspace  #00000000 #00ff00 #00000f  #  border, bg, text
+        active_workspace   #005500 #000000 #ffffff
+        inactive_workspace #00ff00 #00000000 #ffffff  
+        urgent_workspace   #ff0000 #000000 #ffffff  
+    }
+   font pango: Hack Nerd Font 10
+    }
+
+# Gaps configuration (requires i3-gaps)
+gaps inner 16
+gaps left 0
+gaps right 0
+gaps bottom 0
+gaps top -16 
+
+# PulseAudio volume control (via pactl)
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute        exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Brightness control using light
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
+
+exec --no-startup-id i3status
+exec --no-startup-id betterlockscreen -l
+exec_always --no-startup-id light -S 2.5
+exec --no-startup-id pavucontrol 
+exec --no-startup-id sleep 3 && pkill pavucontrol
+exec --no-startup-id picom --config ~/.config/picom/picom.conf --daemon
+exec kitty -e mpd &
+
+focus_wrapping no
+exec_always --no-startup-id feh --bg-scale ~/img/png_img/gwindle.png
+
+
+set $bg-color 	         #00cc41
+set $inactive-bg-color   #006620
+set $text-color          #000000
+set $inactive-text-color #111111
+set $urgent-bg-color     #E53935
+
+# window colors
+#                       border              background         text                 indicator
+client.focused          $bg-color           $bg-color          $text-color          #00ff00
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+
+default_border pixel 9
+

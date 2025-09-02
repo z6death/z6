@@ -1,0 +1,119 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAPFAAAAHgAAB3UAAAQZAAADzgAAACcAAAdsAAAEEAAAAAAAAAAAB4AAAAPOAAAA
+    JwAAB2wAAAQQ
+  tabs:
+  - history:
+    - last_visited: '2025-08-20T15:53:59'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:54:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Remove Version Numbers from Package List - DeepSeek
+      url: https://chat.deepseek.com/a/chat/s/e701f0d3-6fd2-49bd-8ac2-1e66cff5b937
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-08-20T15:54:24'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:54:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Towards reproducibility: pinning Nixpkgs — nix.dev documentation'
+      url: https://nix.dev/tutorials/first-steps/towards-reproducibility-pinning-nixpkgs
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-08-20T15:56:01'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:56:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: nix-shell - Nix 2.28.5 Reference Manual
+      url: https://nix.dev/manual/nix/2.28/command-ref/nix-shell
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-08-20T15:56:14'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:56:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Automatic environment activation with direnv — nix.dev documentation
+      url: https://nix.dev/guides/recipes/direnv#automatic-direnv
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-08-20T15:56:23'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:56:32'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dependencies in the development shell — nix.dev documentation
+      url: https://nix.dev/guides/recipes/sharing-dependencies
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-08-20T15:56:32'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:56:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Nix Language - Nix 2.28.5 Reference Manual
+      url: https://nix.dev/manual/nix/2.28/language/index.html
+      zoom: 1.0
+  - history:
+    - last_visited: '2025-08-20T15:56:38'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:56:44'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home Manager Manual
+      url: https://nix-community.github.io/home-manager/
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2025-08-20T15:56:46'
+      pinned: false
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+    - active: true
+      last_visited: '2025-08-20T15:56:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Appendix A. Home Manager Configuration Options
+      url: https://nix-community.github.io/home-manager/options.xhtml
+      zoom: 1.0

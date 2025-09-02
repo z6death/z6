@@ -1,0 +1,4 @@
+#!/bin/sh
+# For Void Linux with runit - closes original window after launching new workspace
+setsid -f qutebrowser --basedir "$HOME/.config/qutebrowser/workspace/$1"
+echo "close" > "$QUTE_FIFO"

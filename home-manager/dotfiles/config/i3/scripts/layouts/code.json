@@ -1,0 +1,117 @@
+// vim:ts=4:sw=4:et
+{
+    // splith split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 0.9,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 9,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1023,
+               "width": 1870,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "hx",
+            "percent": 0.7,
+            "swallows": [
+               {
+               // "class": "^kitty$",
+               // "instance": "^kitty$",
+               // "machine": "^Z6$",
+               // "title": "^hx$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 9,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1023,
+               "width": 918,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "i3-save-tree --workspace 1 > ~/.config/i3/layouts/code.json",
+            "percent": 0.3,
+            "swallows": [
+               {
+               // "class": "^kitty$",
+               // "instance": "^kitty$",
+               // "machine": "^Z6$",
+               // "title": "^i3\\-save\\-tree\\ \\-\\-workspace\\ 1\\ \\>\\ \\~\\/\\.config\\/i3\\/layouts\\/code\\.json$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splith split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 0.1,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 9,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1023,
+               "width": 918,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "cava",
+            "percent": 0.9,
+            "swallows": [
+               {
+               // "class": "^kitty$",
+               // "instance": "^kitty$",
+               // "machine": "^Z6$",
+               // "title": "^cava$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 9,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 495,
+               "width": 918,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "play_media.sh",
+            "percent": 0.1,
+            "swallows": [
+               {
+               // "class": "^kitty$",
+               // "instance": "^kitty$",
+               // "machine": "^Z6$",
+               // "title": "^play_media\\.sh$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

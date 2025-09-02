@@ -1,0 +1,17 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAKAAAAHgAAB3UAAAQZAAAAEwAAACcAAAdsAAAEEAAAAAAAAAAAB4AAAAATAAAA
+    JwAAB2wAAAQQ
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2025-08-27T21:11:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Homepage
+      url: file:///home/z6/.config/qutebrowser/home/index.html
+      zoom: 1.0

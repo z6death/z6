@@ -1,0 +1,95 @@
+
+/* Smart Adaptive Green/Black Theme */
+:root {
+  --green: #00FF4C;
+  --black: #000000;
+  --dark-gray: #121212;
+}
+
+/* Base styling */
+html, body {
+  background-color: var(--black) !important;
+  color: var(--green) !important;
+}
+
+/* Text elements */
+p, h1, h2, h3, h4, h5, h6, 
+span, div, li, td, th, pre, code,
+blockquote, label, figcaption {
+  color: var(--green) !important;
+  background-color: transparent !important;
+}
+
+/* Links */
+a, a:visited {
+  color: var(--green) !important;
+  text-decoration: underline !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Form elements */
+button, input[type="button"], 
+input[type="submit"], input[type="reset"],
+[role="button"] {
+  background-color: var(--green) !important;
+  color: var(--black) !important;
+  border: 1px solid var(--black) !important;
+}
+
+input:not([type="button"]), 
+textarea, select {
+  background-color: var(--dark-gray) !important;
+  color: var(--green) !important;
+  border: 1px solid var(--green) !important;
+}
+
+/* Enhanced white background detection */
+div, section, article, header, footer,
+main, aside, nav, form, table, tr, td, th,
+[class], [id], [style] {
+  background-color: var(--black) !important;
+  
+  /* Detect and convert white backgrounds */
+  &[style*="white"],
+  &[style*="#fff"],
+  &[style*="#ffffff"],
+  &[style*="rgb(255, 255, 255)"],
+  &[style*="rgba(255, 255, 255"] {
+    background-color: var(--green) !important;
+    color: var(--black) !important;
+    
+    /* Nested text elements */
+    & > p, & > h1, & > h2, & > h3, & > h4, 
+    & > h5, & > h6, & > span, & > div, 
+    & > li, & > td, & > th, & > a {
+      color: var(--black) !important;
+    }
+  }
+  
+  /* Detect and convert light backgrounds */
+  &[style*="#f"],
+  &[style*="light"],
+  &[style*="rgb(24"],
+  &[style*="rgba(24"] {
+    background-color: var(--dark-gray) !important;
+  }
+}
+
+/* Protected elements */
+video, img, svg, canvas, iframe,
+[class*="thumbnail"], [class*="video"],
+[class*="image"], [class*="icon"],
+[class*="logo"], [class*="preview"],
+[data-testid*="image"], [aria-label*="image"] {
+  background-color: unset !important;
+  filter: none !important;
+  color: unset !important;
+}
+
+/* Special cases for common frameworks */
+[class*="card"], [class*="box"], [class*="panel"] {
+  background-color: var(--dark-gray) !important;
+  border: 1px solid var(--green) !important;
+}

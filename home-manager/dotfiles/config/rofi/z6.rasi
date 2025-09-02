@@ -1,0 +1,115 @@
+/**
+ * z6.rasi — Hacker-style Rofi Theme with Transparency (No Blur)
+ */
+
+* {
+    background-color: transparent;
+    text-color: #00FF00;
+}
+
+window {
+    padding: 1em;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.93);
+    border: 4px;
+    border-color: #00FF00;
+    border-radius: 8px;
+}
+
+mainbox {
+    spacing: 0px;
+    children: [ "inputbar", "wrapper-mode-switcher", "listview" ];
+}
+
+element {
+    padding: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    orientation: horizontal;
+    font: "FiraCode Nerd Font 13";
+    children: [ "element-icon", "element-text" ];
+}
+
+element selected {
+    background-color: rgba(0, 255, 0, 0.13);
+    border: 2px;
+    border-color: #00FF00;
+    border-radius: 6px;
+}
+
+element-text {
+    cursor: pointer;
+    font: inherit;
+    horizontal-align: 0.50;
+}
+
+button {
+    horizontal-align: 0.50;
+    text-color: #00FF00;
+    cursor: pointer;
+    border: 2px;
+    border-color: #00FF00;
+    background-color: rgba(0, 0, 0, 0.67);
+    border-radius: 6px;
+}
+
+button selected.normal {
+    padding: 0px;
+    margin: 0px;
+    text-color: #00FF00;
+    border: 2px;
+    border-color: #00FF00;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 6px;
+}
+
+inputbar {
+    padding: 0.5em;
+    margin: 0 0 0.5em 0;
+    background-color: rgba(0, 0, 0, 0.67);
+    columns: 4;
+    border: 2px;
+    border-color: #00FF00;
+    border-radius: 6px;
+    spacing: 0.4em;
+}
+
+listview {
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.67);
+    columns: 1;
+    border: 2px;
+    border-color: #00FF00;
+    border-radius: 6px;
+    lines: 8;
+}
+
+message {
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.67);
+    columns: 4;
+    border: 2px;
+    border-color: #00FF00;
+    border-radius: 6px;
+    lines: 4;
+}
+
+wrapper-mode-switcher {
+    orientation: horizontal;
+    expand: false;
+    spacing: 0.5em;
+    children: [ "icon-ms-ic1", "icon-ms-ic2", "icon-ms-ic3", "icon-ms-ic4" ];
+}
+
+mode-switcher {
+    orientation: horizontal;
+    expand: true;
+    spacing: 0px;
+}
+
+entry {
+    placeholder: "Enter Command...";
+    placeholder-color: rgba(0,255,0,0.27);
+    text-color: #00FF00;
+}
