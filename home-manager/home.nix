@@ -1,42 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  nixpkgs.config.allowUnfree = true;
-
-  # Your packages
-  home.packages = with pkgs; [
-    # Basic utilities
-    bat curl fzf git tmux wget
-    
-    # System tools
-    acpi autoconf automake btop cmake cryptsetup
-    dnsmasq du-dust gcc gdb jq light lvm2 gnumake
-    mdadm meson ninja nmap pkg-config rsync smartmontools
-    xclip xdotool xz
-    
-    # Networking
-    aircrack-ng avahi bluez bridge-utils networkmanager
-    networkmanagerapplet wirelesstools
-    
-    # Development
-    cargo clang clinfo go python3 rustc
-    
-    # GUI programs
-    feh flameshot gimp i3 i3blocks i3lock-color i3status
-    kitty lxappearance pavucontrol picom polybar rofi
-    viewnior vlc xarchiver
-    
-    # Audio
-    bluez-alsa cava mpc mpd ncmpcpp pulseaudio
-    
-    # Other
-    autojump chrony dialog figlet jp2a jmtpfs john
-    nnn preload qutebrowser ranger redshift squashfsTools
-    syslinux termshark tlp tumbler upower vimb virt-manager
-    xorriso zathura p7zip csfml opencl-headers thunar
-    gitAndTools.git-filter-repo git-lfs hcxdumptool mtools neofetch
-  ];
-
   # ===== .CONFIG DIRECTORIES =====
   xdg.configFile = {
     "i3".source = ./dotfiles/config/i3;
@@ -66,8 +30,8 @@
   # Program configurations
   programs.git = {
     enable = true;
-    userName = "z6";
-    userEmail = "z6@example.com";
+    userName = "z6death";
+    userEmail = "tnz426.z6@gmail.com";
   };
 
   programs.bash = {
@@ -75,7 +39,7 @@
     shellAliases = {
       ll = "ls -la";
       update = "sudo xbps-install -Su";
-      hm = "cd ~/.hacking/home-manager && home-manager switch";
+      hm = "cd ~/.hacking/home-manager && home-manager switch --flake .#z6";
     };
   };
 
