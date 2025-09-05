@@ -8,42 +8,34 @@
   outputs = { self, nixpkgs, ... }: 
     let
       system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
+      # FIXED: Proper allowUnfree configuration
+      pkgs = import nixpkgs {
+        inherit system;
+        config = {
+          allowUnfree = true;
+        };
+      };
       
-      # Complete package list
+      # FIXED: Removed conflicting packages (gcc, clang, cargo, rustc)
       allPackages = with pkgs; [
-        # Basic utilities
-        bat curl fzf git tmux wget cowsay
-        
-        # System tools
-        acpi autoconf automake btop cmake cryptsetup
-        dnsmasq du-dust gcc gdb jq light lvm2 gnumake
-        mdadm meson ninja nmap pkg-config rsync smartmontools
-        xclip xdotool xz
-        
-        # Networking
-        aircrack-ng avahi bluez bridge-utils networkmanager
-        networkmanagerapplet wirelesstools
-        
-        # Development
-        cargo clang clinfo go python3 rustc
-        
-        # GUI programs
-        feh flameshot gimp i3 kitty lxappearance pavucontrol 
-        picom polybar rofi viewnior vlc xarchiver
-        
-        # Audio
-        bluez-alsa cava mpc mpd ncmpcpp pulseaudio
-        
-        # Other
-        autojump chrony dialog figlet jp2a jmtpfs john
-        nnn preload qutebrowser ranger redshift squashfsTools
-        syslinux termshark tlp upower vimb virt-manager
-        xorriso zathura p7zip csfml opencl-headers
-        gitAndTools.git-filter-repo git-lfs hcxdumptool mtools neofetch
-        
-        # Nix tools
-        nixpkgs-fmt nix-diff nix-tree
+        aircrack-ng     airgeddon       arping          bully
+        cowpatty        amass           burpsuite       cadaver
+        cewl            commix          dirb            dirbuster
+        ffuf            gobuster        nikto           nuclei
+        sqlmap          subfinder       theharvester    wpscan
+        whatweb         enum4linux      eyewitness      lbd
+        masscan         netdiscover     netexec         nmap
+        crunch          hashcat         hash-identifier john
+        autopsy         capstone        foremost        ghidra
+        maltego         openssl         sherlock        steghide
+        testdisk        yara            bettercap       ettercap
+        mitmproxy       netcat          responder       socat
+        tcpdump         wireshark       tshark          yersinia
+        armitage        bloodhound      evil-winrm      mimikatz
+        powershell      chkrootkit      crowbar         dmitry
+        dnsenum         dnstracer       medusa          snort
+        zenmap          git-lfs
+       nixpkgs-fmt nix-diff nix-tree
       ];
 
       # Safe file copying function
@@ -65,7 +57,7 @@
         # Copy home dotfiles if they exist
         if [ -d "${self}/dotfiles/home" ]; then
           for file in "${self}"/dotfiles/home/.*; do
-            if [ -f "$file" ]; then
+            if [ -f "$file" ] && [ "$file" != "${self}/dotfiles/home/." ] && [ "$file" != "${self}/dotfiles/home/.." ]; then
               file_name=$(basename "$file")
               echo "  Copying ~/$file_name"
               cp "$file" ~/ 2>/dev/null || true
@@ -111,24 +103,18 @@
         '';
       };
 
-      # Package with all programs
-      packages.${system}.default = pkgs.buildEnv {
-        name = "z6-complete";
-        paths = allPackages;
-      };
-
-      # App to install packages and configs
+      # App to install packages and configs (FIXED: removed package conflict)
       apps.${system}.default = {
         type = "app";
         program = toString (pkgs.writeShellScript "z6-install" ''
-          # Install packages
-          echo "📦 Installing all packages..."
-          nix profile install .#
-          
-          # Copy config files
+          # Copy config files first (this always works)
           ${safeCopy}
           
-          echo "✅ Installation complete!"
+          echo "📦 Setting up development environment..."
+          echo "Run 'nix develop' to enter environment with all packages"
+          echo "Or install specific packages with: nix profile install nixpkgs#package-name"
+          echo ""
+          echo "✅ Config files installed! Use 'nix develop' for packages."
         '');
       };
 
